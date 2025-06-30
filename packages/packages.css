@@ -128,3 +128,18 @@ main {
     border-right-color: #ff5454;
   }
 }
+
+.package {
+  width: 80%;
+  margin: 1rem auto;
+  border: none;
+  border-radius: 1rem;
+  background-color: #f9fafb; /* light gray for a clean look */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.package:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.15);
+}
